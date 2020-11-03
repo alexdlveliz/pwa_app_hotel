@@ -8,7 +8,6 @@
       <Cards></Cards>
       <Registro></Registro>
       <Photos></Photos>
-      <Album></Album>
       <Footer></Footer>
     </main>
   </div>
@@ -20,7 +19,6 @@ import Banner from './components/Banner'
 import Cards from './components/Cards'
 import Registro from './components/Registro'
 import Photos from './components/Photos'
-import Album from './components/Album'
 import Footer from './components/Footer'
 
 export default {
@@ -31,7 +29,6 @@ export default {
     Cards,
     Registro,
     Photos,
-    Album,
     Footer
   }
 }
@@ -50,7 +47,6 @@ export default {
 
   --fontt2: 'Playfair Display', serif;
   --fonttsubt: 'PT Sans', sans-serif;
-  /* --fontcontent: "helvetica"; */
   --fontcontent: 'Lora', serif;
 }
 
